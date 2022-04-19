@@ -6,7 +6,7 @@ A Golang library that provides functions for streams.
 
 ## Usage
 
-See [streamy_test.go](streamy_test.go), [reader_test](reader_test), [progress_test](progress_test) and [have_test.go](have_test.go).
+See [streamy_test.go](streamy_test.go), [reader_test.go](reader_test.go), [progress_test.go](progress_test.go) and [have_test.go](have_test.go).
 
 ## Test
 
