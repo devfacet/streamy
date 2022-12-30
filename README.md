@@ -37,4 +37,4 @@ For the full copyright and license information, please view the LICENSE.txt file
 [release-image]: https://img.shields.io/github/release/devfacet/streamy.svg?style=flat-square
 
 [build-url]: https://github.com/devfacet/streamy/actions/workflows/test.yaml
-[build-image]: https://github.com/devfacet/streamy/workflows/test.yaml/badge.svg
+[build-image]: https://github.com/devfacet/streamy/workflows/Test/badge.svg
