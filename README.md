@@ -11,25 +11,14 @@ See [streamy_test.go](streamy_test.go), [reader_test.go](reader_test.go), [progr
 ## Test
 
 ```shell
-# Test everything:
+# Run tests
 make test
 
-# For BDD development:
-# It will open a new browser window. Make sure:
-#   1. There is no errors on the terminal window.
-#   2. There is no other open GoConvey page.
+# Continuous testing
 make test-ui
 
 # Benchmarks
 make test-benchmarks
-```
-
-## Release
-
-```shell
-# Update and commit CHANGELOG.md first (i.e. git add CHANGELOG.md && git commit -m "v1.0.0").
-# Set GIT_TAG using semver (i.e. GIT_TAG=v1.0.0)
-make release GIT_TAG=
 ```
 
 ## Contributing
@@ -48,4 +37,4 @@ For the full copyright and license information, please view the LICENSE.txt file
 [release-image]: https://img.shields.io/github/release/devfacet/streamy.svg?style=flat-square
 
 [build-url]: https://github.com/devfacet/streamy/actions/workflows/test.yaml
-[build-image]: https://github.com/devfacet/streamy/workflows/Test/badge.svg
+[build-image]: https://github.com/devfacet/streamy/workflows/test.yaml/badge.svg
